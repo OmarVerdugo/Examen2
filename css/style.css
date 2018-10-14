@@ -1,0 +1,214 @@
+body{
+	 font-family: Roboto;    
+	 margin: 0;
+
+}
+.main-header{
+	display: flex;
+	text-align: right;
+
+}
+.main-header img{
+	max-width: 1920px;
+	max-height: 911px;
+	width: 100%;
+}
+
+
+.main-header ul{
+	list-style: none;
+	display: inline-flex;
+	position: absolute;
+	top: 40px;
+	right: 30px;
+	font-size: 20px;
+	text-decoration: none;
+
+	
+}.main-header ul li{
+	margin-right: 15px;
+
+}
+
+.main-header ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.main-header i{
+	position: absolute;
+	top: 40px;
+	left: 30px;
+	font-size: 60px;
+	color: white;
+}
+
+.main-header h3{
+	position: absolute;
+	bottom: 40px;
+	left: 170px;
+	color: white;
+	font-size: 40px;
+	text-align: left;
+}
+
+.slider{
+	text-align: center;
+	font-size: 50px;
+	color: #2468B9;
+}
+.main-header h2{
+	position: absolute;
+	top: 330px;
+	left: 540px;
+	background-color: #0C6798;
+	border-radius: 30px;
+	border-left-width: 10px;
+	font-size: 30px;
+	padding: 10px 100px;
+
+}
+.main-header h2 a{
+	text-decoration: none;
+	color: white;
+}
+/*Header*/
+
+/*Planes*/
+.card {
+	width: 330px;
+	height: 260px;
+	border: 1px solid  #d6d2d2;
+	margin-right: 60px;
+	margin-left: 70px;
+	overflow: hidden;
+	background-color:  #0C6798;
+	color: white;
+	margin-bottom: 10px;
+	display: inline-flex;
+	text-align: center;
+	 background-color: #013A6B;
+ 	 background-image: -webkit-linear-gradient(80deg, white 50%, #0C6798 50%);
+  
+}
+.card-body{
+	width: 100%;
+}
+
+
+.title-section{
+	text-align: center;
+	font-size: 40px;
+	color: #2468B9;
+}
+.card-title{
+	margin-top: 20%;
+	font-size: 20px;
+}
+
+.card-title::after{
+	content: '';
+	background-color: white;
+	height: 1px;
+	width: 15%;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+}
+
+
+
+.card-list {
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+	color: black;
+	padding-top: 60px;
+
+}
+
+.card-list li{
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.pro-section{
+	background-image: linear-gradient(#19396C, #67E8CF);
+  	height: 400px;
+}
+
+.columna ul li{
+	list-style: none;
+	font-size: 40px;
+	color: white;
+	padding-left: 350px;
+	padding-top: 40px;
+
+
+}
+.columna ul{
+	padding-top: 40px;
+	margin-top: 5%;
+
+}
+
+footer{
+	margin-top: 40px;
+	background-color: #0C6798;
+	padding:5px;
+	font-size: 10px;
+	color:white;
+	text-align: center;
+}
+
+/*Pagina de registro*/
+.main-header-register{
+	background-color: #0C6798;
+	text-align: center;
+}
+
+.main-header-register i{
+	font-size: 80px;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+	
+/*PRODUCTOS*/
+
+/*PRODUCTOS*/
+/*
+@media screen and (max-width: 480px){
+	body{
+		
+		
+	}
+	.main-header{
+		margin: 0;
+	}
+	.logo .main-menu{
+		text-align: center;
+		padding-right: 100px;
+		padding-top: 50px;
+	}
+
+	.logo img{
+		margin-left: 120px;
+	}
+	
+	.title-contact{
+		margin-left: 0;
+	}
+	.card {
+		width: 100%
+	}
+	.buscador input {
+	
+		margin-left: 171px;
+
+	}
+
+}
+
+*/
