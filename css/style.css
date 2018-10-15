@@ -1,6 +1,7 @@
 body{
 	 font-family: Roboto;    
 	 margin: 0;
+	 max-width: 1920px;
 
 }
 .main-header{
@@ -82,12 +83,12 @@ body{
 	margin-right: 60px;
 	margin-left: 70px;
 	overflow: hidden;
-	background-color:  #0C6798;
+
 	color: white;
 	margin-bottom: 10px;
 	display: inline-flex;
 	text-align: center;
-	 background-color: #013A6B;
+	 
  	 background-image: -webkit-linear-gradient(80deg, white 50%, #0C6798 50%);
   
 }
@@ -174,18 +175,28 @@ footer{
 	margin-bottom: 10px;
 }
 
-	
-/*PRODUCTOS*/
-
-/*PRODUCTOS*/
-/*
-@media screen and (max-width: 480px){
+ 
+@media screen and (max-width: 916px){
 	body{
 		
 		
 	}
 	.main-header{
 		margin: 0;
+	}
+	.main-header h3{
+		    bottom: 17px;
+   			 left: 38px;
+	}
+	.main-header h2{
+		    top: 200px;
+    		left: 263px;
+
+	}
+	.main-header ul{
+		top: 19px;
+    	right: 90px;
+    	font-size: 20px;
 	}
 	.logo .main-menu{
 		text-align: center;
@@ -197,18 +208,59 @@ footer{
 		margin-left: 120px;
 	}
 	
-	.title-contact{
-		margin-left: 0;
+	.container{
+		text-align: center;
 	}
 	.card {
-		width: 100%
+		width: 50%;
+		margin-bottom: 15px;
 	}
-	.buscador input {
-	
-		margin-left: 171px;
-
+	.columna ul li{
+		padding: 0;
+		margin-left: 20%;
+		text-align: left;
+		margin-bottom: 35px;
+	}
+	.footer{
+		font-size: 20px;
 	}
 
 }
 
-*/
+@media screen and (max-width: 761px){
+	body{
+		
+		
+	}
+	.main-header ul {
+    top: 248px;
+    right: 90px;
+    font-size: 20px;
+	}
+	.main-header h3{
+		top: 39px;
+    	left: 330px;
+    	margin: 0;
+    	font-size: 25px;
+	}
+	.main-header h2{
+		top: 200px;
+    	left: 195px;
+    	font-size: 20px;
+	}
+	
+
+}
+
+@media screen and (max-width: 528px){
+
+	.main-header h2 {
+	    top: 141px;
+	    left: 128px;
+	    font-size: 20px;
+	}
+	.columna ul li {
+    list-style: none;
+    font-size: 30px;
+	}
+}
