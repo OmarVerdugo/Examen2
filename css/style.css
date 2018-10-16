@@ -330,7 +330,6 @@ margin-top: 50px;
 	.columna ul li {
     list-style: none;
     font-size: 30px;
-    
 	}
 
 }
@@ -354,3 +353,22 @@ margin-top: 50px;
     font-size: 14px;
 	}
 }
+
+/*
+@media screen and (max-width: 1920px){
+
+	.planes{
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+	}
+	.main-header h2{
+		left: 800px;
+		    top: 356px;
+	}
+	.main-header h3{
+
+	    top: 469px;
+    	left: 223px;
+	}
+}*/
