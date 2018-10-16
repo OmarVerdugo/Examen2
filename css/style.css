@@ -330,5 +330,27 @@ margin-top: 50px;
 	.columna ul li {
     list-style: none;
     font-size: 30px;
+    
+	}
+
+}
+
+@media screen and (max-width: 364px){
+	.main-header h3{
+		left: 115px;
+	}
+	.main-header h2 {
+    top: 105px;
+    left: 59px;
+    font-size: 14px;
+	}
+	.columna ul li {
+    list-style: none;
+    font-size: 30px;
+	}
+	.main-header ul {
+    top: 163px;
+    right: 28px;
+    font-size: 14px;
 	}
 }
